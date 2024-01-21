@@ -47,7 +47,6 @@ def get():
           for lii in after2.findAll('li'):
             lidat["prevention"].append(lii.text)
             
-      print(lidat["prevention"])
 
 
       
